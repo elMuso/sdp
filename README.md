@@ -29,7 +29,7 @@ To add sdp to your project:
 
 By default the library has measurements from 1sdp to 600 sdp, and negative measurements from -1sdp to -60sdp
 
-If you want a liter version you can download the [Lite](https://github.com/elMuso/sdp-modern/archive/refs/heads/lite.zip) branch, it goes from 1sdp to 60 sdp, and doesn't include negative units. You can get them 
+If you want a liter version you can download the [Lite](https://github.com/elMuso/sdp-modern/archive/refs/heads/lite.zip) branch, it goes from 1sdp to 200 sdp, and doesn't include negative units. You can get them 
 programatically by using `context.resources.getDimension(R.dimen._1sdp) * your_desired_size` in kotlin or `getContext()-getResources().getDimension(R.dimen._1sdp) * your_desired_size;` in java
 
 For easy mapping of designs to sdp units, one can create designs with 390 pixels screen width - in this case each pixel in the design corresponds to 1 sdp.
