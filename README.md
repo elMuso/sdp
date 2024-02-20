@@ -27,15 +27,11 @@ You can see that sdp scales with the screen size and the dp stays with the same 
 
 To add sdp to your project (Using Android Studio and Gradle): 
 
-  add implementation 'com.intuit.sdp:sdp-android:1.1.0' to your build.gradle dependencies block.
-  
-  for example:
-  
-  ```
-  dependencies {
-    implementation 'com.intuit.sdp:sdp-android:1.1.0'
-  }
-  ```
+* Download the Zip file from releases or [here](https://github.com/elMuso/sdp-modern/archive/refs/tags/1.0.0.zip), or clone the repository
+* Unzip it
+* Go to Android Studio, click File > New > Import Module and select sdp-modern unzipped folder
+* Click finish
+
 See the [sdp_example.xml](https://github.com/intuit/sdp/blob/master/sdp-android/src/main/res/layout/sdp_example.xml) to see how to use to the sdp size unit.
 
 For easy mapping of designs to sdp units, one can create designs with 390 pixels screen width (compliant with material design guidelines - in this case each pixel in the design corresponds to 1 sdp.
